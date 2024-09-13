@@ -1,4 +1,3 @@
-//your JS code here. If required.
 function calculateSum() {
     // Get the values of the two number inputs
     const num1 = parseFloat(document.getElementById('n1').value);
@@ -9,10 +8,10 @@ function calculateSum() {
         // Calculate the sum
         const sum = num1 + num2;
 
-        // Display the sum in the paragraph with id 'sum'
-        document.getElementById('sum').textContent = sum;
+        // Display the sum in the paragraph with id 'Sum' (Capital 'S')
+        document.getElementById('Sum').textContent = sum;
     } else {
         // If inputs are invalid, clear the result
-        document.getElementById('sum').textContent = '';
+        document.getElementById('Sum').textContent = '';
     }
 }
